@@ -151,14 +151,15 @@ Proper power distribution is critical to prevent the Arduino from resetting when
 
 ---
 
-## 🚀 Future Code Setup
+## 🚀 Code Setup
 
-Since the repository currently houses project images and hardware lists, future updates will include the `.ino` source files. To prepare:
+I have added a boilerplate Arduino skeleton code `Smart_Door_Lock.ino` inside the `Smart_Door_Lock/` directory. This code pre-integrates all the hardware modules mentioned above.
 
 1. Install [Arduino IDE](https://www.arduino.cc/en/software).
 2. Install the required libraries via the Library Manager:
    - `Adafruit Fingerprint Sensor Library`
    - `Keypad` by Mark Stanley
    - `LiquidCrystal I2C` by Frank de Brabander
+3. Open `Smart_Door_Lock.ino`, compile, and upload it to your Arduino Uno/Nano.
 
 *Document generated and maintained automatically via Antigravity CI.*
