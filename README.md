@@ -165,4 +165,4 @@ Hosts a Local Web Server to unlock the door remotely via WiFi.
 - Add ESP8266 board to Arduino IDE.
 - Update `YOUR_WIFI_SSID` and `YOUR_WIFI_PASSWORD` in the code before uploading.
 
-*Document generated and maintained automatically via Antigravity CI.*
+Muhammad Al-Muzahid | © 2026
