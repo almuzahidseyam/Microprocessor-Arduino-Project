@@ -1,6 +1,22 @@
+# Arduino IDE
+build/
+*.elf
+*.hex
+*.bin
+*.out
 
-*.mp4
-*.avi
-*.mkv
-*.rar
-*.zip
+# VS Code / PlatformIO
+.vscode/
+.pio/
+.pioenvs/
+.piolibdeps/
+.ccls-cache/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
