@@ -153,13 +153,16 @@ Proper power distribution is critical to prevent the Arduino from resetting when
 
 ## 🚀 Code Setup
 
-I have added a boilerplate Arduino skeleton code `Smart_Door_Lock.ino` inside the `Smart_Door_Lock/` directory. This code pre-integrates all the hardware modules mentioned above.
+I have added boilerplate Arduino skeleton codes for both the Main Arduino and the NodeMCU WiFi module.
 
-1. Install [Arduino IDE](https://www.arduino.cc/en/software).
-2. Install the required libraries via the Library Manager:
-   - `Adafruit Fingerprint Sensor Library`
-   - `Keypad` by Mark Stanley
-   - `LiquidCrystal I2C` by Frank de Brabander
-3. Open `Smart_Door_Lock.ino`, compile, and upload it to your Arduino Uno/Nano.
+### 1. Main Arduino (`Smart_Door_Lock/Smart_Door_Lock.ino`)
+Pre-integrates Fingerprint, Keypad, LCD, Bluetooth, and Relay.
+- Install [Arduino IDE](https://www.arduino.cc/en/software).
+- Install libraries: `Adafruit Fingerprint Sensor Library`, `Keypad`, `LiquidCrystal I2C`.
+
+### 2. NodeMCU ESP8266 (`NodeMCU_WiFi/NodeMCU_WiFi.ino`)
+Hosts a Local Web Server to unlock the door remotely via WiFi.
+- Add ESP8266 board to Arduino IDE.
+- Update `YOUR_WIFI_SSID` and `YOUR_WIFI_PASSWORD` in the code before uploading.
 
 *Document generated and maintained automatically via Antigravity CI.*
